@@ -1,0 +1,97 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Raleway';
+  background-color: #F9FBFF;
+}
+
+h1{
+  font-family: 'Raleway';
+  font-size: 20px;
+  padding-left: 28%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  font-size: 80px;
+  text-align: center;
+  margin: 10% auto 0px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Sansita One', cursive;
+  /*font-family: 'Playfair Display', serif;*/
+  color: white;
+  max-width: 1150px;
+}
+
+.container span {
+  text-shadow: 0px 2px 6px #666;
+  display: inline-block;
+  position: relative;
+  padding: 0px 6px;
+  transition: 0.8s;
+  /*transform: rotateZ(0deg);*/
+}
+
+.container span.active {
+  color: #E9D758;
+  text-shadow: 0px 2px 6px #666;
+}
+
+.box {
+  display: flex;
+  width:10%;
+  margin: 0 auto; 20%;
+  text-align: center;
+  margin-top: 10%;
+  border-style: double;
+  border-color: #666;
+}
+
+.box:hover{
+  background-color: #D3B137;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .container {
+    font-size: 126px;
+  }
+}
+@media screen and (max-width: 749px) {
+  .container {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container{
+    font-size: 76px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav {
+  font-family: 'Lato', sans-serif;
+  background: #F9FBFF;
+  font-weight: 300;
+  position: fixed;
+  width: 100%;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 20px 30px;
+
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: lightgrey;
+}
+
+nav ul{
+  margin: 0;
+  display: flex;
+  /*justify-content:flex-end;*/
+  justify-content: right;
+}
+
+nav li{
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+}
+
+.asidephoto{
+  display: flex;
+  width:50%;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}

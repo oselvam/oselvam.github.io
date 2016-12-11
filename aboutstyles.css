@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+  background: url(img/olivia-icecream.jpg) no-repeat fixed;
+  background-size: 50%;
+  background-position: 10px 59px;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+
+nav {
+  font-family: 'Lato', sans-serif;
+  background: #F9FBFF;
+  font-weight: 300;
+  position: fixed;
+  width: 100%;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 20px 30px;
+
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: lightgrey;
+}
+
+nav ul{
+  margin: 0;
+  display: flex;
+  /*justify-content:flex-end;*/
+  justify-content: right;
+
+}
+
+nav li{
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+}
+main{
+  padding-top: 59px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 100%;
+  /*flex-direction: row-reverse;*/
+}
+
+h1{
+  text-align: center;
+  margin-top: 30%;
+  margin-bottom: 0px;
+  color: white;
+  font-family: 'raleway';
+  font-weight: 700;
+  font-size: 25px;
+}
+
+h2{
+  text-align: center;
+  padding-left: 0;
+  /*font-family: 'raleway';
+  font-weight: 300;
+  font-size: 13px;*/
+}
+
+a{
+text-decoration: none;
+color: white;
+font-family: 'raleway';
+font-weight: 300;
+font-size: 13px;
+}
+
+.me{
+  width: 50%;
+}
+
+.heading{
+  width: 50%;
+}
+
+p{
+  /*display: inline-block;*/
+  margin-right: 0;
+  padding: 10% 7% 0 10%;
+  /*padding-right: 5%;*/
+  /*padding-top: 5%;*/
+  text-align: justify;
+}
+
+.box {
+  display: flex;
+  width:20%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3%;
+  border-style:solid;
+  border-color: white;
+  background-color: grey;
+}
+
+.box:hover{
+  background-color: white;
+  color: lightgrey;
+  border-color: lightgrey;
+}
+
+.fa{
+  /*display: flex;
+  width: 50%;*/
+  /*justify-content: center;*/
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social {
+  padding-left: 47%;
+  padding-top: 1%;
+}
+
+i {
+  display: flex;
+  /*justify-content:center;*/
+}
+/*main .wrapper{
+  display: flex;
+  width:50%;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}*/
+
+
+/*p{
+padding-left: 50%;
+width: 100%
+}*/
